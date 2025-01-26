@@ -1,6 +1,11 @@
 /**
  *
  *
+   Abstract ALPHA
+   https://abstractalpha.xyz
+   Tokenized ALPHA group for Abstract L2
+   $ALPHA
+
    Contract features:
    100,000,000 tokens
    3% buy tax in ETH sent to community, marketing & developer
