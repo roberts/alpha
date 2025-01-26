@@ -2,7 +2,7 @@
  *
  *
    Abstract ALPHA
-   https://abstractalpha.xyz
+   https://AbstractALPHA.xyz
    Tokenized ALPHA group for Abstract L2
    $ALPHA
 
@@ -1150,7 +1150,7 @@ contract Alpha is ERC20, Ownable {
         address(0x000000000000000000000000000000000000dEaD);
 
     string public exchangeLink = "https://app.uniswap.or/swap";
-    string public websiteLink = "https://DrewRoberts.com";
+    string public websiteLink = "https://AbstractALPHA.xyz";
 
     address public communityWallet;
     address public marketingWallet;
