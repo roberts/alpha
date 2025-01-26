@@ -1200,8 +1200,11 @@ contract Tuesday is ERC20, Ownable {
     );
 
     constructor() ERC20("Tuesday", "TUES") {
+        /**
+          * @dev abstract uniswap v2 router https://docs.abs.xyz/tooling/deployed-contracts#uniswap-v2
+        */
         uniswapV2Router = IUniswapV2Router02(
-            0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24
+            0x96ff7D9dbf52FdcAe79157d3b249282c7FABd409
         );
         _approve(address(this), address(uniswapV2Router), type(uint256).max);
 
