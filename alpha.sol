@@ -1234,9 +1234,9 @@ contract Alpha is ERC20, Ownable {
             marketingLopsidedSellTax +
             developerLopsidedSellTax;
 
-        communityWallet = address(0xC6aa2f0FF6b8563EA418ec2558890D6027413699); // Community Funds
-        marketingWallet = address(0xC6aa2f0FF6b8563EA418ec2558890D6027413699); // Marketing Funds
-        developerWallet = address(0xA6d26E99660de4974B8994eCF75dcD4Cf34951B6); // Developer Funds
+        communityWallet = address(0x1f9aA613658dDb40910BDcaD1E235Fc1d98e7F17); // Community Funds
+        marketingWallet = address(0x9de74AB6116cF298C99C934292BA64b5E064d44d); // Marketing Funds
+        developerWallet = address(0xDEB333a3240eb2e1cA45D38654c26a8C1AAd0507); // Developer Funds
 
         _mint(address(this), totalSupply);
 
